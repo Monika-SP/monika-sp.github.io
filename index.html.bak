@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Monika S P — Python Full Stack Developer portfolio">
+<title>Monika S P | Python Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor"></div><div class="cursor-ring"></div>
+<div class="scroll-progress"></div>
+
+<header class="nav">
+  <a href="#home" class="logo"><span class="logo-mark">&lt;/&gt;</span><span>MONIKA S P</span></a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#experience">Experience</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="resume-actions">
+    <a class="btn btn-line magnetic" href="Monika_SP_Resume.pdf" target="_blank" rel="noopener">View Resume ↗</a>
+    <a class="btn btn-light magnetic" href="Monika_SP_Resume.pdf" download>Download Resume ↓</a>
+  </div>
+  <button class="menu" aria-label="Menu">☰</button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="aurora a1"></div><div class="aurora a2"></div><div class="grid-bg"></div>
+  <div class="hero-content reveal">
+    <div class="availability"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
+    <p class="kicker">HELLO, I'M MONIKA ✦</p>
+    <h1>Python Full Stack<br><span class="outline">Developer.</span></h1>
+    <p class="hero-description">I build practical, responsive web applications with Python and Django — connecting clean interfaces with reliable backend logic and MySQL databases.</p>
+    <div class="hero-actions">
+      <a class="btn btn-light magnetic" href="#projects">Explore my work ↗</a>
+      <a class="btn btn-line magnetic" href="#contact">Let's connect</a>
+    </div>
+    <div class="quick-links">
+      <a href="https://github.com/Monika-SP" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://linkedin.com/in/monika-s-p" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="tel:+918792569780">Phone ↗</a>
+      <a href="mailto:spmonika939@gmail.com">Email ↗</a>
+    </div>
+  </div>
+
+  <div class="hero-photo" aria-hidden="true"><div class="hero-photo-overlay"></div></div>
+  <div class="workspace" aria-hidden="true">
+    <div class="floating-code c1">def build_future():</div>
+    <div class="floating-code c2">Django + MySQL</div>
+    <div class="floating-code c3">&lt; / &gt;</div>
+    <div class="cute-star s1">✦</div><div class="cute-star s2">♡</div>
+    <div class="desk"></div>
+    <div class="monitor">
+      <div class="screen">
+        <div class="terminal-top"><span></span><span></span><span></span></div>
+        <div class="terminal-lines">
+          <b>from</b> django <b>import</b> forms<br>
+          <b>class</b> Developer:<br>
+          &nbsp;&nbsp;skills = [<em>Python</em>, <em>Django</em>]<br>
+          &nbsp;&nbsp;database = <em>MySQL</em><br>
+          &nbsp;&nbsp;pass
+        </div>
+      </div>
+      <div class="monitor-neck"></div><div class="monitor-base"></div>
+    </div>
+    <div class="person"><div class="head"></div><div class="hair"></div><div class="body"></div><div class="arm arm-left"></div><div class="arm arm-right"></div></div>
+    <div class="coffee"></div>
+    <div class="plant"><span></span><span></span><span></span><div></div></div>
+  </div>
+  <div class="scroll">SCROLL TO EXPLORE <span>↓</span></div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-head reveal"><span>01 / ABOUT</span><h2>Turning ideas into<br><em>working web experiences.</em></h2></div>
+  <div class="about-grid">
+    <div class="about-number">01</div>
+    <div class="about-copy reveal">
+      <p class="big">I’m a B.E. graduate and Python Full Stack Intern at TAP Academy, building my foundation in modern web development.</p>
+      <p>I enjoy creating applications where the frontend feels simple and useful, while the backend handles real workflows. My current focus is Python, Django, MySQL, HTML and CSS, with practical experience through a fashion-store e-commerce application.</p>
+      <p>I’m especially interested in software development and Python development, and I’m continuously improving my problem-solving, debugging and application-building skills.</p>
+    </div>
+  </div>
+</section>
+
+<section class="skills-section" id="skills">
+  <div class="section-head reveal"><span>02 / SKILLS</span><h2>My little<br><em>developer toolkit.</em></h2></div>
+  <div class="skills-marquee"><div class="marquee-track">
+    <span>PYTHON</span><span>DJANGO</span><span>HTML5</span><span>CSS3</span><span>JAVASCRIPT</span><span>MYSQL</span><span>OOPS</span>
+    <span>PYTHON</span><span>DJANGO</span><span>HTML5</span><span>CSS3</span><span>JAVASCRIPT</span><span>MYSQL</span><span>OOPS</span>
+  </div></div>
+  <div class="skill-cards">
+    <article class="skill-card reveal"><div class="skill-icon"><img src="https://cdn.simpleicons.org/python" alt="Python"><b>Py</b></div><h3>Python</h3><p>Programming & backend logic</p><span>01</span><i class="spark">✦</i></article>
+    <article class="skill-card reveal"><div class="skill-icon"><img src="https://cdn.simpleicons.org/django" alt="Django"><b>Dj</b></div><h3>Django</h3><p>Web framework & templates</p><span>02</span><i class="spark">♡</i></article>
+    <article class="skill-card reveal"><div class="skill-icon"><img src="https://cdn.simpleicons.org/html5" alt="HTML5"><b>5</b></div><h3>HTML5</h3><p>Semantic web structure</p><span>03</span><i class="spark">✦</i></article>
+    <article class="skill-card reveal"><div class="skill-icon"><img src="https://cdn.simpleicons.org/css3" alt="CSS3"><b>#</b></div><h3>CSS3</h3><p>Responsive visual design</p><span>04</span><i class="spark">♡</i></article>
+    <article class="skill-card reveal"><div class="skill-icon"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript"><b>JS</b></div><h3>JavaScript</h3><p>Interactive web behaviour</p><span>05</span><i class="spark">✦</i></article>
+    <article class="skill-card reveal"><div class="skill-icon"><img src="https://cdn.simpleicons.org/mysql" alt="MySQL"><b>SQL</b></div><h3>MySQL</h3><p>Database & data management</p><span>06</span><i class="spark">♡</i></article>
+  </div>
+</section>
+
+<section class="section project-section" id="projects">
+  <div class="section-head reveal"><span>03 / PROJECT</span><h2>Meet my<br><em>Fashion Store.</em></h2></div>
+  <article class="project-card reveal">
+    <div class="project-video">
+      <video autoplay muted loop playsinline preload="metadata">
+        <source src="Fashion_Store_Project.mp4" type="video/mp4">
+      </video>
+      <div class="video-shade"></div>
+      <div class="video-top">
+        <span class="live-dot"><i></i> PROJECT PREVIEW</span>
+        <span>FASHION STORE ✦</span>
+      </div>
+      <div class="video-center"><span>▶</span><small>WATCH THE BUILD</small></div>
+      <div class="video-bottom"><span>Python</span><span>Django</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <div class="floating-heart h1">♡</div><div class="floating-heart h2">✦</div><div class="floating-heart h3">♡</div>
+    </div>
+    <div class="project-info">
+      <div class="project-meta"><span>JUL 2026 — SEP 2026</span><span>01</span></div>
+      <h3>Fashion Store</h3><p class="project-sub">E-Commerce Web Application</p>
+      <p>A full-stack fashion e-commerce application for browsing products and viewing detailed product information, with complete user and order workflows.</p>
+      <ul><li>User registration, login and authentication</li><li>Shopping cart, checkout and order management</li><li>MySQL integration for products, users and orders</li><li>Responsive Django templates using HTML and CSS</li></ul>
+      <div class="tech-tags"><span>Python</span><span>Django</span><span>MySQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+    </div>
+  </article>
+</section>
+
+<section class="section experience" id="experience">
+  <div class="section-head reveal"><span>04 / EXPERIENCE</span><h2>Learning by<br><em>building.</em></h2></div>
+  <div class="experience-row reveal">
+    <div><span class="date">JUL 2026 — PRESENT</span><h3>Full Stack Intern</h3><p>TAP Academy</p></div>
+    <div><p>Intensive training in Python, Django, HTML, CSS, JavaScript and MySQL.</p><p>Practiced backend logic, Django templating, database integration and authentication.</p><p>Worked on e-commerce workflows, debugging, testing and improving application functionality.</p></div>
+    <div class="exp-number">01</div>
+  </div>
+</section>
+
+<section class="section education" id="education">
+  <div class="section-head reveal"><span>05 / EDUCATION</span><h2>Foundation for<br><em>the next build.</em></h2></div>
+  <div class="edu-card reveal">
+    <div><span class="date">2022 — 2026</span><h3>Rajeev Institute of Technology, Hassan</h3></div>
+    <div><p>B.E. in Electronics and Communication Engineering (ECE)</p><strong>CGPA 8.2</strong></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-orbit"><div></div><div></div><div></div></div>
+  <div class="contact-content reveal">
+    <span>06 / CONTACT</span><h2>Have a project<br>in mind?</h2>
+    <p>Let's connect and create something useful.</p>
+    <a class="email-big" href="mailto:spmonika939@gmail.com">spmonika939@gmail.com ↗</a>
+    <div class="contact-grid">
+      <a href="tel:+918792569780"><small>PHONE</small>+91 8792569780 ↗</a>
+      <a href="https://github.com/Monika-SP" target="_blank" rel="noopener"><small>GITHUB</small>Monika-SP ↗</a>
+      <a href="https://linkedin.com/in/monika-s-p" target="_blank" rel="noopener"><small>LINKEDIN</small>monika-s-p ↗</a>
+    </div>
+    <div class="resume-actions">
+      <a class="btn btn-line magnetic" href="Monika_SP_Resume.pdf" target="_blank" rel="noopener">View Resume ↗</a>
+      <a class="btn btn-light magnetic" href="Monika_SP_Resume.pdf" download>Download Resume ↓</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer><span>MONIKA S P</span><span>Python Full Stack Developer</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
